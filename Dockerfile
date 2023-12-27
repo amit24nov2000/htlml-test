@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . .
 
 # Install dependencies (if needed)
-# RUN npm install
+# RUN npm install 
 
 # Run a script that keeps the container running
 CMD ["node", "-e", "setInterval(() => {}, 1000);"]
