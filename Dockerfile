@@ -6,7 +6,7 @@ WORKDIR /app
 # Copy your application files
 COPY . .
 
-# Install dependencies (if needed)
+# Install dependencies (if needed) 
 # RUN npm install
 
 # Run a script that keeps the container running
