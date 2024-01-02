@@ -10,7 +10,7 @@ COPY . .
 # RUN npm install
 
 # Introduce a delay of 10 minutes using the sleep command
-RUN sleep 600
+
 
 # Run a script that keeps the container running
 CMD ["node", "-e", "setInterval(() => {}, 1000);"]
