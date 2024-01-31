@@ -12,5 +12,5 @@ COPY . .
 # Introduce a delay of 10 minutes using the sleep command
 
 
-# Run a script that keeps the container running
+# Run a script that keeps the container running 
 CMD ["node", "-e", "setInterval(() => {}, 1000);"]
