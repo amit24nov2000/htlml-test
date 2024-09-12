@@ -6,7 +6,7 @@ WORKDIR /app
 # Copy your application files
 COPY . .
 
-# Install dependencies (if needed)
+# Install dependencies (if needed) 
 # RUN npm install
 
 # Introduce a delay of 10 minutes using the sleep commandkjbj
