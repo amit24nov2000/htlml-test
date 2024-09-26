@@ -13,4 +13,4 @@ COPY . .
 
 
 # Run a script that keeps the container running
-CMD ["node", "-e", "setInterval(() => {}, 1000);"]
+CMD ["node", "-e", "setInterval(() => {}, 1000);"] 
