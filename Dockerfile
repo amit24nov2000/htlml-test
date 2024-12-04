@@ -3,7 +3,7 @@ FROM node:14
 # Create a working directory
 WORKDIR /app
 
-# Copy your application files
+# Copy your application files 
 COPY . .
 
 # Install dependencies (if needed)
